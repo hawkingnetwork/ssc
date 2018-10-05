@@ -1,0 +1,16 @@
+{
+  "name": "ssc",
+  "version": "1.0.0",
+  "description": "stellar smart contract",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production && node ./index.js",
+    "dev": "NODE_ENV=development && nodemon ./case2.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "stellar-sdk": "0.11.0"
+  }
+}
